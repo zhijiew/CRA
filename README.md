@@ -1,5 +1,2 @@
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cross-region-domain-adaptation-for-class/domain-adaptation-on-gta5-to-cityscapes)](https://paperswithcode.com/sota/domain-adaptation-on-gta5-to-cityscapes?p=cross-region-domain-adaptation-for-class)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cross-region-domain-adaptation-for-class/domain-adaptation-on-synthia-to-cityscapes)](https://paperswithcode.com/sota/domain-adaptation-on-synthia-to-cityscapes?p=cross-region-domain-adaptation-for-class)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cross-region-domain-adaptation-for-class/domain-adaptation-on-synscapes-to-cityscapes)](https://paperswithcode.com/sota/domain-adaptation-on-synscapes-to-cityscapes?p=cross-region-domain-adaptation-for-class)
 ## Cross-Region Domain Adaptation for Class-level Alignment
 This is the implementation of the paper "Cross-Region Domain Adaptation for Class-level Alignment" by Zhijie Wang, Xing Liu, Masanori Suganuma and Takayuki Okatani
