@@ -1,5 +1,6 @@
 # Cross-Region Domain Adaptation for Class-level Alignment
 This is a [pytorch](http://pytorch.org/) implementation of [CRA](https://arxiv.org/abs/2109.06422).
+![Workflow](demo/workflow.png)
 
 ## Requirements
 ### Environment
@@ -48,12 +49,21 @@ The data folder should be structured as follows:
 │   └── 			
 ...
 ```
-## Train
+## Pretrained Models
+The pretrained models for GTA5 -> Cityscapes task (based on FADA) are available [here](https://github.com/zhijiew/CRA/releases). Please download and place them in ```<root_dir>/pretrained```.
 
 ## Evaluate
+```
+# evaluate CRA
+python test.py -cfg configs/deeplabv2_r101_cra.yaml \
+    resume pretrained/cra.pth
 
-## Pretrained Models
-The pretrained models for GTA5 -> Cityscapes task (based on FADA) are available in the [release page](https://github.com/zhijiew/CRA/releases).
+# evaluate CRA (w/ self distillation)
+python test.py -cfg configs/deeplabv2_r101_tgt_self_distill.yaml \
+    resume pretrained/cra_sd.pth
+```
+
+## Train
 
 ## Citation
 If you find this repository useful please consider citing
