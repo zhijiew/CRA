@@ -7,11 +7,12 @@ This is a [pytorch](http://pytorch.org/) implementation of [CRA](https://arxiv.o
 conda create -n cra \
     python=3.6 tqdm yacs pillow \
     opencv matplotlib imageio \
+    torchvision=0.8.2=py36_cu110 \
     pytorch=1.7.1=py3.6_cuda11.0.221_cudnn8.0.5_0 -c pytorch
 conda activate cra
-pip install mmcv torchvision==0.8.2
+pip install mmcv
 ```
-### Data
+### Data Preparation
 - Download [The GTA5 Dataset]( https://download.visinf.tu-darmstadt.de/data/from_games/ )
 
 - Download [The SYNTHIA Dataset]( http://synthia-dataset.net/download/808/ )
@@ -52,6 +53,7 @@ The data folder should be structured as follows:
 ## Evaluate
 
 ## Pretrained Models
+The pretrained models for GTA5 -> Cityscapes task (based on FADA) are available in the [release page](https://github.com/zhijiew/CRA/releases).
 
 ## Citation
 If you find this repository useful please consider citing
