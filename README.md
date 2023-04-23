@@ -65,7 +65,7 @@ python test.py -cfg configs/deeplabv2_r101_tgt_self_distill.yaml \
 
 ## Train
 ```
-# train CRA
+# please change the paths in train.sh before running.
 bash train.sh
 ```
 
