@@ -59,7 +59,7 @@ python test.py -cfg configs/deeplabv2_r101_cra.yaml \
     resume pretrained/cra.pth
 
 # evaluate CRA (w/ self distillation)
-python test.py -cfg configs/deeplabv2_r101_tgt_self_distill.yaml \
+python test.py -cfg configs/deeplabv2_r101_self_distill.yaml \
     resume pretrained/cra_sd.pth
 ```
 
