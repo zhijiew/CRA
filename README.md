@@ -64,6 +64,10 @@ python test.py -cfg configs/deeplabv2_r101_tgt_self_distill.yaml \
 ```
 
 ## Train
+```
+# train CRA
+bash train.sh
+```
 
 ## Citation
 If you find this repository useful please consider citing
